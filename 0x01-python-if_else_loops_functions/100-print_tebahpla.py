@@ -5,4 +5,3 @@ for num in range(ord('z'), ord('a') - 1, -1):
     else:
         dif = 32
     print('{}'.format(chr(num - dif)), end='')
-
